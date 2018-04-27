@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Andriel</string>
+
+    <string-array name="mainlist">
+        <item>ExceptionExapmleAct</item>
+    </string-array>
 </resources>
