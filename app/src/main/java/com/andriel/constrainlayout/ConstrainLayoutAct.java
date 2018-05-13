@@ -1,4 +1,4 @@
-package com.constrainlayout;
+package com.andriel.constrainlayout;
 
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
@@ -19,9 +19,9 @@ public class ConstrainLayoutAct extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_constrain_layout);
 
-        ViewDataBinding viewDataBinding = DataBindingUtil.setContentView(this, R.layout.activity_constrain_layout);
+       // ViewDataBinding viewDataBinding = DataBindingUtil.setContentView(this, R.layout.activity_constrain_layout);
         UiData uiData = new UiData();
-        viewDataBinding.setVariable(BR.uiData, uiData);
+      //  viewDataBinding.setVariable(BR.uiData, uiData);
     }
 
     public class UiData extends BaseObservable {
@@ -40,7 +40,7 @@ public class ConstrainLayoutAct extends AppCompatActivity {
         @Bindable
         public void setContent(String content) {
             this.content = content;
-            notifyPropertyChanged(BR.content);
+         //   notifyPropertyChanged(BR.content);
         }
     }
 }

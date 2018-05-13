@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".widjets.frags.SpinnerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="spinner" />
+
+    <Spinner
+        android:id="@+id/sp0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+    <FrameLayout
+        android:background="@color/background_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <com.andriel.widjets.custom.CustomSpinner
+            android:id="@+id/sp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></com.andriel.widjets.custom.CustomSpinner>
+
+    </FrameLayout>
+</LinearLayout>
