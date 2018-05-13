@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="NumPickerView">
+
+        <attr name="message" format="string"></attr>
+        <attr name="uidata" format="reference"></attr>
+
+    </declare-styleable>
+
+</resources>
