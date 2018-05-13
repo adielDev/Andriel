@@ -14,13 +14,19 @@
 
     <Spinner
         android:id="@+id/sp0"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"></Spinner>
 
+    <Spinner
+        android:id="@+id/sp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Spinner>
+
+
     <FrameLayout
-        android:background="@color/background_black"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/background_black"
         android:padding="20dp">
 
         <com.andriel.widjets.custom.CustomSpinner
